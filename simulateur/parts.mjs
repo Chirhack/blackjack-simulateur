@@ -3,8 +3,8 @@ import { iso, cylinder, solidSvg, lineSvg, ring, slabOf, pathOf, towardViewer, s
 // Le plan de la table. x vers la droite, y vers le joueur, z vers le haut ; le feutre est à FZ sous le bourrelet.
 export const FZ = -3, CY = -130, R_OUT = 310, R_FELT = 284, R_SPOT = 232;
 export const CARD_W = 40, CARD_H = 56, SPOT_ANGLES = [0, 22, -22, 44, -44];
-export const SHOE = { x: 186, y: -112, w: 92, d: 56 }, SHOE_MOUTH = 196, SHOE_LEN = 66, SHOE_Y = -84;
-export const DISCARD = { x: -272, y: -112, w: 56, d: 66 }, DISCARD_U = 0.06;
+export const SHOE = { x: 186, y: -112, w: 92, d: 56, r: 3 }, SHOE_MOUTH = 196, SHOE_LEN = 66, SHOE_Y = -84;
+export const DISCARD = { x: -272, y: -112, w: 56, d: 66, r: 3 }, DISCARD_U = 0.06;
 export const TRAY_AT = [0, -116], FRONT_AT = [0, 196];
 export const CHIP_R = 13, CHIP_T = 2.4;
 export const DEALER_AT = [-24, -58];
